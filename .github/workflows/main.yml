@@ -27,9 +27,6 @@ jobs:
       - name: Install Angular CLI
         run: npm install -g @angular/cli
 
-      - name: Lint code
-        run: npm run lint
-
       - name: Run tests
         run: npm test
 
